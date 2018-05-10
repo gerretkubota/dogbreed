@@ -1,5 +1,57 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  font-family: 'Roboto';
+  padding: 20px;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+div.mainDiv h1{
+  text-align: center;
+}
+
+div.content{
+  background-color: #fff;
+  overflow: scroll;
+  width: 400px;
+  height: 600px;
+  padding: 0px;
+  margin: 0 auto;
+
+  border: 1px solid #ddd;
+  /* text-align: center; */
+}
+
+
+div.content tr:hover{
+  cursor: pointer;
+  background-color: #cce5e5;
+}
+
+div table{
+  margin: 0 auto;
+  text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #cdcdcd;
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th{
+  border-color: 1px solid #111;
+  background-color: #fafafa;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+tr:nth-child(odd){
+  background-color: #fafafa;
 }
